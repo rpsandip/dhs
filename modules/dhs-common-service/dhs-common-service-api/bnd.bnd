@@ -1,0 +1,9 @@
+Bundle-Name: dhs-common-service-api
+Bundle-SymbolicName: dhs.common.service.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	dhs.common.service.exception,\
+	dhs.common.service.model,\
+	dhs.common.service.service,\
+	dhs.common.service.service.persistence
+-includeresource: META-INF/service.xml=../dhs-common-service-service/service.xml
