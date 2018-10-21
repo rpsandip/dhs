@@ -33,7 +33,7 @@ public class DhsRegistrationPortlet extends MVCPortlet {
 	 @Override
 	  public void doView(RenderRequest renderRequest, RenderResponse renderResponse) throws IOException, PortletException {
 	   renderRequest.setAttribute("questionlist", UserLocalServiceUtil.getUsers(0, -1)); 
-	    include(viewTemplate, renderRequest, renderResponse);
+	     include(viewTemplate, renderRequest, renderResponse);
 	  }
 	 
 }
